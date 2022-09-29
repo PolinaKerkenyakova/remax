@@ -1,0 +1,16 @@
+/*      Colors       */
+:root {
+  --clr-white: #ffffff;
+  --clr-light-1: #efffff;
+
+  --clr-blue-light: #70b4da;
+  --clr-blue-light-2: #c1dceb;
+  
+  --clr-blue-dark: #002d6f;
+  --clr-blue-dark-1: #0f4584;
+
+  --clr-red-light: #dc1c2e;
+  --clr-red-dark: #8b1416;
+
+  --clr-black: #000000;
+}

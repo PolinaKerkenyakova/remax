@@ -1,0 +1,40 @@
+.image-with-text-box-on-top {
+  position: relative;
+  min-height: 630px;
+  background-position: 15% bottom;
+}
+
+.image-with-text-box-on-top .text-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--clr-white);
+  padding: 2em 2em 1em;
+}
+
+/* .image-with-text-box-on-top .text-box span {
+  font-size: 0.83em;
+  vertical-align: super;
+} */
+
+@media (min-width: 576px) {
+  .image-with-text-box-on-top .text-box {
+    max-width: 540px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .image-with-text-box-on-top {
+    background-position: 0 100%;
+  }
+
+  .image-with-text-box-on-top .text-box {
+    right: 2rem;
+    left: unset;
+    transform: none;
+  }
+}

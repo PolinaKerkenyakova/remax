@@ -1,0 +1,30 @@
+.image-leftright-with-bullet-points {
+    margin: 5rem 0;
+}
+
+.image-leftright-with-bullet-points .content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.image-leftright-with-bullet-points .box {
+  display: flex;
+  gap: 20px;
+}
+
+.image-leftright-with-bullet-points .bullet-box {
+  width: 20px;
+  flex: 0 0 20px;
+}
+
+@media (min-width: 992px) {
+  .image-leftright-with-bullet-points .content {
+    flex-direction: row;
+    gap: 1.875rem;
+  }
+
+  .image-leftright-with-bullet-points .content > div {
+    flex: 1 1 50%;
+  }
+}

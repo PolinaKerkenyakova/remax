@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1680 1180" style="enable-background:new 0 0 1680 1180;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
+	.st2{opacity:0.3;fill:#B3B3B3;enable-background:new    ;}
+	.st3{fill:#CCCCCC;}
+	.st4{opacity:0.8;fill:#FFFFFF;}
+	.st5{fill:#E6E6E6;}
+	.st6{fill:none;}
+</style>
+<radialGradient id="SVGID_1_" cx="840" cy="388.3" r="840.4211" gradientTransform="matrix(1.0005 0 0 0.9524 -0.4002 220.1997)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0.2" style="stop-color:#FAFAFA"/>
+	<stop  offset="1" style="stop-color:#F0F0F0"/>
+</radialGradient>
+<rect class="st0" width="1680" height="1180"/>
+<polygon class="st1" points="1508.1,0 1177.1,345.3 1059,232.1 1281.5,0 "/>
+<polygon class="st2" points="1680,0 1406.9,0 1680,285 "/>
+<polygon class="st1" points="1266.7,431.2 1680,0 1558.1,0 1203.2,370.3 "/>
+<polygon class="st3" points="1561.9,751.3 1680,864.5 1377.6,1180 1151,1180 "/>
+<polygon class="st4" points="1679.6,541.2 1680,756.1 1273.7,1180 1067.4,1180 "/>
+<polygon class="st3" points="0,0 294.6,0 294.6,685.7 0.1,403.4 "/>
+<polygon class="st1" points="889,1180 1369,1180 480,252.4 0,252.4 "/>
+<polygon class="st2" points="294.6,685.7 294.6,416 519.8,180.9 778.3,180.9 "/>
+<polygon class="st5" points="294.6,203.7 294.6,556.4 0,863.7 0,511 "/>
+<line class="st6" x1="1266.7" y1="431.2" x2="1203.2" y2="370.3"/>
+<polygon class="st1" points="812.7,0 812.4,0.4 1028.7,207.7 1227.7,0 "/>
+</svg>

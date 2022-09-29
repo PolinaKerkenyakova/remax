@@ -1,0 +1,88 @@
+/* h1, */
+h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-weight: 800;
+  color: #0f4584;
+}
+
+.h1,
+h1 {
+  position: relative;
+  color: #000000;
+  color: var(--clr-black);
+  margin-bottom: 1rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 1.15em;
+  line-height: 1em;
+  text-transform: uppercase;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  z-index: 1;
+}
+
+h1,
+.h1::after {
+  content: "";
+  width: 100%;
+  height: 6px;
+  background: #c1dceb;
+  background: var(--clr-blue-light-2);
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  z-index: -1;
+}
+
+h2 em {
+  -webkit-text-stroke: 1px #0f4584;
+  text-stroke: 1px #0f4584;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-style: normal;
+  display: inline-block;
+}
+
+.title-white {
+  color: #ffffff;
+}
+
+.title-white em {
+  -webkit-text-stroke: 1px #ffffff;
+  text-stroke: 1px #ffffff;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+}
+
+h4 {
+  font-weight: 800;
+}
+
+p {
+  font-family: "Open Sans";
+}
+
+.text-intro {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+
+/* ????????????? */
+
+/* RESPONSIVE MOBILE */
+@media only screen and (max-width: 767px),
+  only screen and (max-device-width: 767px) {
+  h1,
+  h2 {
+    font-size: 2.25em;
+  }
+  .text-intro {
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,58 @@
+.hero-with-image .content {
+  padding: 100px 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hero-with-image h2 {
+  max-width: 300px;
+}
+
+.hero-with-image h4 {
+  margin-bottom: 0.5rem;
+}
+
+.hero-with-image .image-container {
+  position: relative;
+}
+
+.hero-with-image .badge {
+  width: 160px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--clr-white);
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  flex-direction: column;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .hero-with-image .image-container {
+    height: 20em;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-with-image .container {
+    max-width: 100%;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .hero-with-image .content {
+    flex-direction: row;
+    padding: 100px 0 0;
+  }
+
+  .hero-with-image .image-container {
+    height: initial; 
+  }
+}

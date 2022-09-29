@@ -1,0 +1,41 @@
+.boxes-with-title-and-text {
+  margin-top: 3rem;
+}
+
+.boxes-with-title-and-text .icon {
+  max-width: 50px;
+  margin: 0 auto 1.25rem auto;
+}
+
+.boxes-with-title-and-text h2 {
+  text-align: center;
+}
+
+.boxes-with-title-and-text h3 {
+  text-align: center;
+  max-width: 335px;
+  margin: 0 auto;
+}
+
+.boxes-with-title-and-text .title-container {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 4px solid var(--clr-blue-light-2);
+}
+
+.boxes-with-title-and-text .boxes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 992px) {
+  .boxes-with-title-and-text .boxes-container {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .boxes-with-title-and-text .box {
+    flex: 1 1 47%;
+  }
+}

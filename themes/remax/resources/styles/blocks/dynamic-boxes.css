@@ -1,0 +1,49 @@
+.dynamic-boxes {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.dynamic-boxes .boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.dynamic-boxes .box {
+  width: 100%;
+  padding: 1.75em;
+  border: 1px solid var(--clr-blue-light-2);
+  transition: all 0.2s;
+  max-width: 510px;
+}
+
+.dynamic-boxes .box:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 30px 30px #eee;
+}
+
+.dynamic-boxes .description {
+  margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+  .dynamic-boxes .boxes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  .dynamic-boxes .box {
+    max-width: 330px;
+    flex: 1 1 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .dynamic-boxes .box {
+    max-width: 31%;
+    flex: 1 1 33.333%;
+  }
+}

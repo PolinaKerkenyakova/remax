@@ -1,0 +1,18 @@
+.video-with-text-and-boxes {
+  padding: 4rem 0;
+}
+
+.video-with-text-and-boxes h2 {
+  text-align: center;
+}
+
+.video-with-text-and-boxes .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.video-with-text-and-boxes .content-container span {
+  font-size: 0.83em;
+  vertical-align: super;
+}

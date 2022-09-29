@@ -1,0 +1,37 @@
+.videos-with-cta {
+  margin: 3rem 0;
+}
+
+.videos-with-cta .videos {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.videos-with-cta .icon {
+  max-width: 50px;
+  margin: 0 auto;
+}
+
+.videos-with-cta h3 {
+  text-align: center;
+}
+
+.videos-with-cta .video-box {
+  margin-bottom: 2rem;
+}
+
+.videos-with-cta h4 {
+  margin-bottom: 1rem;
+}
+
+.videos-with-cta .cta {
+  margin: 1rem auto 0;
+  width: fit-content;
+}
+
+@media (min-width: 992px) {
+  .videos-with-cta .videos {
+    flex-direction: row;
+  }
+}
